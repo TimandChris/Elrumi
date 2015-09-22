@@ -1,0 +1,49 @@
+Github WordPress notes
+
+1. create organization
+-a. give it a name
+-b. add owners
+-c. good to go.
+
+2. Create an empty repo on GIT DO NOT! initialize with readme.md file
+
+3. Initialize GIT on your project, on your computer
+
+[
+git init (create repo)
+git status
+(create ignore file for node_modules)
+git add -A
+git commit -m ""
+
+after getting link from git at quick setup page
+git remote add upstream 'url'
+git remote -v (should see upstream)
+git push upstream master
+
+now we should have timjackwilkins/whatever the name of repo is
+
+git remote add origin 'url'
+]
+
+4. Pick one person to push the initial commit to tthe origin files
+-a. this person should add the files: git add -A
+-b. this person should commit the files:
+-c. this person should add the organization repo as their upstream now.
+-d. Push files up to the organization GitHub: git push upstream master
+
+
+5. Everyone fork the repo so that they have a copy of their own. We never need to to
+push origin master again.
+
+6. Add remote for origin on YOUR computer IF you were the first to push.
+	-git remote add origin <YOURurl>
+a. 	set up the upstream
+	git remote add upstream <orgURL>
+
+7. Clone the repo if you do not have the files on your repo yet!
+	git clone	
+
+8. Start Working and follow these steps
+-a. When you are ready to commit, check the status of the repo
+b. Add files you want to commit	
